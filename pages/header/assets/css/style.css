@@ -1,0 +1,600 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: "Jacquard 24", system-ui;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/bg.png');
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+    opacity: 0.5; /* Optional: Adjust the opacity to your liking */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    text-align: center;
+    background: url(/assets/img/bg.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.c1 img{
+    width: 100%; /* Ensure responsive image size */
+    max-width: 90px; 
+}
+
+.c2 img {
+    width: 100%; /* Ensure responsive image size */
+    max-width: 300px;
+}
+.c3{
+font-size: 15px;
+    font-weight: 700;
+
+}
+
+.instruction-1{
+    padding: 20px 60px;
+    display: flex;
+    
+}
+.instruction-1 p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.header-1{
+    padding: 10px 8px;
+    display: flex;
+    
+
+}
+
+.exmple-1{
+ display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#part-1{
+    display: flex;
+
+    align-items: center;
+   gap: 5rem       ;
+}
+#part-1 img{
+    width: 100%; /* Ensure responsive image size */
+    max-width: 90px; 
+}
+
+/*  first header*/
+
+.instruction-1{
+    width: 100%;
+    padding:12px  ;
+}
+.instruction-1 p{
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+}
+
+.header-1{
+    width: 100%;
+    padding: 15px 30px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+
+.header-1 img{
+    width: 100%; /* Ensure responsive image size */
+    max-width: 50px;
+}
+
+.navbar{
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    margin: 0 20px;
+    gap: 2rem   ;
+}
+
+.navbar a{
+    color: black;
+    font-weight: 500;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.header-1 a{
+    font-size: 25px;
+    color: black;
+}
+
+
+/* Header 2*/
+
+.header-2{
+    padding: 15px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem   ;
+    
+    background-color: black;
+
+    & > a{
+        text-decoration: none;
+        font-size: larger;
+        color: white;
+    }
+}
+.header-2 img{
+    width: auto;
+    max-width: 50px;
+}
+
+/* Header 3*/
+
+
+.header-3{
+    width: 100%;
+    padding: 15px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 25px;
+
+    & > a{
+        color: black;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    
+        
+    }
+}
+
+
+.header-3 img{
+    width: auto;
+    max-width: 50px;
+}
+
+/* header 4 */
+
+.header-4{
+    width: 100%;
+    padding: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    & a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+        
+        color: black;
+
+    }
+}
+
+.header-4 img{
+    width: auto;
+    max-width: 150px;
+    margin-right: 4rem;
+}
+
+
+
+/* header 5*/
+
+.header-5{
+    width: 100%;
+    padding: 15px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo-name-5{
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+.button-5 button {
+    padding: 15px 28px;
+    background-color: white;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+
+.header-5 img{
+    width: auto;
+    max-width: 100px;
+
+}
+
+/* header 6*/
+
+
+.header-6{
+    width: 100%;
+    padding: 15px 30px;
+    background: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-6 img{
+    width: 100%; /* Ensure responsive image size */
+    max-width: 50px;
+}
+
+.nav {
+    font-family: "Jacquard 24";
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+
+  }
+
+  .nav * {
+    box-sizing: border-box;
+    transition: all .35s ease;
+  }
+
+  .nav li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: .5em 1em;
+    padding: 0;
+  }
+
+  .nav a {
+    padding: .5em .8em;
+    color: rgba(255,255,255,.5);
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .nav a::before,
+  .nav a::after {
+
+    content: '';
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    transition: all .35s ease;
+    opacity: 0;
+  }
+  .nav a::before {
+    content: '';
+    right: 0;
+    top: 0;
+    border-top: 3px solid silver;
+    border-right: 3px solid silver;
+    transform: translate(-100%, 50%);
+  }
+  .nav a:after {
+    content: '';
+    left: 0;
+    bottom: 0;
+    border-bottom: 3px solid silver;
+    border-left: 3px solid silver;
+    transform: translate(100%, -50%)
+  }
+
+  .nav a:hover:before,
+.nav a:hover:after{
+  transform: translate(0,0);
+  opacity: 1;
+}
+
+.nav a:hover {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: silver;
+}
+
+.navbar a{
+    color: black;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+.header-6 a{
+    font-size: 25px;
+    color: black;
+
+    
+}
+
+.header-7{
+    padding: 15px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem   ;
+    
+    background-color: black;
+
+
+    .button-7 button {
+        padding: 5px 8px;
+        font-size: 20px;
+        background-color: white;
+        color: black;
+        border: 2px solid transparent;
+        border-radius: 8px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        transition: 0.3s ease;
+        cursor: pointer;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .button-7 button:hover {
+        background-color: black;
+        color: white;
+        border: 2px solid white; /* Adjust border color on hover */
+    }
+    
+}
+
+.header-7 img{
+    width: 100%;
+    max-width: 70px;
+}
+
+
+
+
+
+.header-8{
+    width: 100%;
+    padding: 15px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 35px;
+
+
+    & > a{
+        color: black;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    
+        
+    }
+}
+
+
+.burger-icon a{
+    color: black;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.search a{
+    color: black;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.burger-icon,
+.search:hover {
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.logo-picture,
+.burger-icon,
+.search:hover {
+    color: white;
+    text-shadow: 0 0 25px white, 0 0 25px gray;
+    transform: scale(1.1);
+}
+
+.header-8 img{
+    width: auto;
+    max-width: 50px;
+}
+
+.header-9{
+    width: 100%;
+    padding: 15px 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-1 button {
+    padding: 1px 28px;
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-1 button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black; /* Adjust border color on hover */
+}
+
+.burger-icon-1 a{
+    color: black;
+    font-size: 40px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.burger-icon-1:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.logo-picture-1 img{
+    width: 100%;
+    max-width: 100px;
+    margin-right: 18rem;
+}
+
+/* header 10*/
+
+.header-10{
+    width: 100%;
+    padding: 15px 40px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo-name {
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+.logo-name:hover {
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.logo-name:hover {
+    color: white;
+    text-shadow: 0 0 25px white, 0 0 25px gray;
+    transform: scale(1.1);
+}
+
+
+.button button {
+    padding: 15px 28px;
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.button button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black; /* Adjust border color on hover */
+}
+
+
+.header-10 img{
+    width: auto;
+    max-width: 100px;
+
+}
+
+.button2{
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    height: 60%;
+    gap: 7rem ;
+
+}
+
+.btn-header button{
+    padding: 15px 40px;
+    font-size:25px;
+    color: black;
+    border-radius: 2rem;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.btn-footer button{
+    padding: 15px 40px;
+    font-size:25px;
+    color: black;
+    border-radius: 2rem;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.btn-header button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black; /* Adjust border color on hover */
+}
+
+.btn-footer button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black; /* Adjust border color on hover */
+}
